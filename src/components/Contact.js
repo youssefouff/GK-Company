@@ -11,7 +11,7 @@ const Contact = () => {
             <h2>{t('Contact Us')}</h2>
             <div className='info'>
                 <h3>{t('Phone')}</h3>
-                <p>{t('Eng. Ghoniem El-Kamhawi : 01002933974')}</p>
+                <p>{t('Eng. Ghoniem El-Kamhawi 01002933974')}</p>
                 <p>{t('Eng. Youssef Ghoniem 01026488132')}</p>
                 <p>{t('Eng. Abdullah Ghoniem 01000067202')}</p>
                 <h3>{t('Address')}</h3>
