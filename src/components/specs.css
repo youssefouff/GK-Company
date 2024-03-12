@@ -1,0 +1,103 @@
+.product {
+    background-color: white;
+    margin: auto;
+    padding: 1rem 1rem 1rem 1rem;
+    width: 100%;
+}
+
+.product .container {
+    width: 1240px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/*
+.image-container {
+    position: relative;
+    display: inline-block; 
+}
+
+ .image-container .machine-image .warranty-image{
+    display: block;
+    max-width: 100%;
+}
+
+.image-container .warranty-image{
+    height: 100px;
+    width: 500px;
+}
+*/
+.proudct .specs {
+    display: flex;
+    padding-top: 5rem;
+}
+
+.product img{
+    padding-top: 6rem;
+    width: 500px;
+    height: 600px;   
+}
+
+.longMachine img{
+    margin-right: 200px;
+    margin-left: 200px;
+    width: 200px;
+    height: 600px;
+}
+
+.product .specs h2{
+    padding-top: 6rem;
+    padding-bottom: 1rem;
+    color: rgb(155, 11, 11);
+
+}
+ .product p{
+    padding: 0.5rem;
+    font-size: large;
+ }
+ 
+ .side-p p{
+    padding: 0.1rem;
+    font-size: medium;
+    font-style: italic;
+ }
+
+ .product h5{
+    padding: 0.5rem;
+    font-size: large;
+ }
+
+ .product ul{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 1rem;
+ }
+
+ .product li{
+    padding-top: 0.5rem;
+    font-size: medium;
+    font-style: italic;
+ }
+
+ @media screen and (max-width:940px) { 
+    .product .container {
+        width: 100%;
+        display: inline;
+        grid-template-columns: 1fr;
+        padding: 0;
+}
+
+.product p{
+    font-size: medium;
+}
+.product h5{
+    font-size: medium;
+}
+.product li{
+    font-size: small;
+}
+.side-p p{
+    font-size: small;
+}
+ }
