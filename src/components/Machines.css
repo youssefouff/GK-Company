@@ -55,15 +55,12 @@
 }  
 @media screen and (max-width:940px) {
     .machines .imageList {
-        display:inline-block;
-        padding-bottom: 3rem;
-        text-align: center;
-        
+        display: block;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
     }
-
     .machines .content {
         width: 100%;
-        grid-template-columns: 1fr;
         padding: 0;
     }
      .machines .imageList p{
