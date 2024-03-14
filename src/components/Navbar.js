@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import {FaBars, FaTimes} from 'react-icons/fa'
-import logo from './images/logo3.png'
+import logo from './images/logoNew.jpg'
 import './Navbar.css'
 import { HashLink as Link } from 'react-router-hash-link'
 import { useTranslation } from 'react-i18next'

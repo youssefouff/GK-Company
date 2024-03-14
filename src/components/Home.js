@@ -11,7 +11,7 @@ const Home = () => {
     <div className='home'>
         <div className = 'content'>
             <p>{t('Ghoniem El-Kamhawi')}</p> 
-            <p>{t('for manfucturing dairy production lines and equipment')}</p>
+            <p>{t('for manufacturing dairy production lines and equipment')}</p>
             <button  className='button'>
              <Link to="./#machines" className='Link'> {t('Explore More')}</Link>
             </button>

@@ -26,8 +26,8 @@
 }
 
 .header .navbar img {
-    width: 150px;
-    height: 170px;
+    width: 120px;
+    height: 80px;
 }
 
 .header .nav-menu {
@@ -106,8 +106,8 @@ button:hover {
     }
 
     .header .navbar img {
-        width: 150px;
-        height: 150px;
+        width: 120px;
+        height: 70px;
     }
     
 }
